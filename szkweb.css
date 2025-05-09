@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(220, 184, 233);
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  padding: 20px, 20px;
+  border: 2px solid rgb(252, 37, 126);
+  border-radius: 12px;
+  border-width: 1px;
+}
+
+h2 {
+  color: rgb(183, 73, 178);
+}
+
+#intro {
+  height: 50%;
+  width: 50%;
+  padding: 20px, 20px;
+  margin: auto;
+  font-size: 18px;
+  color: rgb(237, 2, 254);
+
+}
+
+h3 {
+  font-size: 23px;
+  color: rgb(183, 73, 178)
+}
+
+#cupcake {
+  float: left;
+  font-size: 19px;
+  color: rgb(181, 6, 149);
+  font-weight: bold;
+  height: 218px;
+  width: 220px;
+  text-align: center;
+  padding-top:120px;
+  padding-bottom: 40px;
+  padding-left: 2px;
+  padding-right:2px;
+  margin-top: 20px auto;
+  margin-bottom: 20px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid rgb(252, 37, 126);
+  border-radius: 50%;
+  background-image: url(cupcake.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cupcake:hover {
+  background-color: rgb(215, 110, 154);
+  color: rgb(244, 95, 197);
+  cursor: pointer;
+}
+
+.coffee {
+  float: inline-start;
+  font-size: 20px;
+  color: rgb(154, 22, 129);
+  font-weight: bold;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  padding-top:125px;
+  padding-bottom: 40px;
+  padding-left: 2px;
+  padding-right:2px;
+  margin-top: 20px auto;
+  margin-bottom: 20px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid rgb(252, 37, 126);
+  border-radius: 50%;
+  background-image: url(coffee.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.coffee:hover {
+  background-color: rgb(243, 61, 137);
+  color: rgb(244, 95, 197);
+  cursor: pointer;
+}
+
+#cappuccino {
+  float: left;
+  font-size: 20px;
+  color: rgb(154, 22, 129);
+  font-weight: bold;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  padding-top:100px;
+  padding-bottom: 40px;
+  padding-left: 2px;
+  padding-right:2px;
+  margin-top: 20px auto;
+  margin-bottom: 20px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid rgb(252, 37, 126);
+  border-radius: 50%;
+  background-image: url(cappuccino.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cappuccino:hover {
+  background-color: rgb(243, 61, 137);
+  color: rgb(244, 95, 197);
+  cursor: pointer;
+}
